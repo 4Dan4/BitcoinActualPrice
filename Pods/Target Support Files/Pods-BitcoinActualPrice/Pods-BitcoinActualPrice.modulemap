@@ -1,0 +1,6 @@
+framework module Pods_BitcoinActualPrice {
+  umbrella header "Pods-BitcoinActualPrice-umbrella.h"
+
+  export *
+  module * { export * }
+}

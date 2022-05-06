@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38ADA6B32825CF7000D61577 /* BitcoinActualPriceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA6B22825CF7000D61577 /* BitcoinActualPriceApp.swift */; };
+		38ADA6B52825CF7000D61577 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA6B42825CF7000D61577 /* ChartView.swift */; };
+		38ADA6B72825CF7100D61577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ADA6B62825CF7100D61577 /* Assets.xcassets */; };
+		38ADA6BA2825CF7100D61577 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ADA6B92825CF7100D61577 /* Preview Assets.xcassets */; };
+		38ADA6C42825CFAF00D61577 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA6C32825CFAF00D61577 /* MainController.swift */; };
+		38ADA6C62825CFBA00D61577 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA6C52825CFBA00D61577 /* MainModel.swift */; };
+		38ADA6C82825CFDE00D61577 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA6C72825CFDE00D61577 /* SettingsView.swift */; };
+		38ADA6CB2825D0D200D61577 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 38ADA6CA2825D0D200D61577 /* SwiftUICharts */; };
+		396281C1378B9B113B7D86D5 /* Pods_BitcoinActualPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094B78299B5FBB389CE90D62 /* Pods_BitcoinActualPrice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0438E18CB37F4DEF6051FF13 /* Pods-BitcoinActualPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinActualPrice.release.xcconfig"; path = "Target Support Files/Pods-BitcoinActualPrice/Pods-BitcoinActualPrice.release.xcconfig"; sourceTree = "<group>"; };
+		094B78299B5FBB389CE90D62 /* Pods_BitcoinActualPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitcoinActualPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38ADA6AF2825CF7000D61577 /* BitcoinActualPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinActualPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38ADA6B22825CF7000D61577 /* BitcoinActualPriceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinActualPriceApp.swift; sourceTree = "<group>"; };
+		38ADA6B42825CF7000D61577 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		38ADA6B62825CF7100D61577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38ADA6B92825CF7100D61577 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38ADA6C32825CFAF00D61577 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		38ADA6C52825CFBA00D61577 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		38ADA6C72825CFDE00D61577 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7795ED09A6F016EC3F60B065 /* Pods-BitcoinActualPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitcoinActualPrice.debug.xcconfig"; path = "Target Support Files/Pods-BitcoinActualPrice/Pods-BitcoinActualPrice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38ADA6AC2825CF7000D61577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396281C1378B9B113B7D86D5 /* Pods_BitcoinActualPrice.framework in Frameworks */,
+				38ADA6CB2825D0D200D61577 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38ADA6A62825CF7000D61577 = {
+			isa = PBXGroup;
+			children = (
+				38ADA6B12825CF7000D61577 /* BitcoinActualPrice */,
+				38ADA6B02825CF7000D61577 /* Products */,
+				C8178BA7A88A2069914F8E8A /* Pods */,
+				70EFA8D9E8687C22B8D52021 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38ADA6B02825CF7000D61577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6AF2825CF7000D61577 /* BitcoinActualPrice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38ADA6B12825CF7000D61577 /* BitcoinActualPrice */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6B22825CF7000D61577 /* BitcoinActualPriceApp.swift */,
+				38ADA6C22825CF8C00D61577 /* Models */,
+				38ADA6C12825CF8600D61577 /* Views */,
+				38ADA6C02825CF7E00D61577 /* Controllers */,
+				38ADA6B82825CF7100D61577 /* Preview Content */,
+			);
+			path = BitcoinActualPrice;
+			sourceTree = "<group>";
+		};
+		38ADA6B82825CF7100D61577 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6B62825CF7100D61577 /* Assets.xcassets */,
+				38ADA6B92825CF7100D61577 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38ADA6C02825CF7E00D61577 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6C32825CFAF00D61577 /* MainController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38ADA6C12825CF8600D61577 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6B42825CF7000D61577 /* ChartView.swift */,
+				38ADA6C72825CFDE00D61577 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		38ADA6C22825CF8C00D61577 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA6C52825CFBA00D61577 /* MainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70EFA8D9E8687C22B8D52021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094B78299B5FBB389CE90D62 /* Pods_BitcoinActualPrice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8178BA7A88A2069914F8E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7795ED09A6F016EC3F60B065 /* Pods-BitcoinActualPrice.debug.xcconfig */,
+				0438E18CB37F4DEF6051FF13 /* Pods-BitcoinActualPrice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38ADA6AE2825CF7000D61577 /* BitcoinActualPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38ADA6BD2825CF7100D61577 /* Build configuration list for PBXNativeTarget "BitcoinActualPrice" */;
+			buildPhases = (
+				80972787D7BC3C4DAE696C7C /* [CP] Check Pods Manifest.lock */,
+				38ADA6AB2825CF7000D61577 /* Sources */,
+				38ADA6AC2825CF7000D61577 /* Frameworks */,
+				38ADA6AD2825CF7000D61577 /* Resources */,
+				DBC3F954768E570A061C27D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinActualPrice;
+			packageProductDependencies = (
+				38ADA6CA2825D0D200D61577 /* SwiftUICharts */,
+			);
+			productName = BitcoinActualPrice;
+			productReference = 38ADA6AF2825CF7000D61577 /* BitcoinActualPrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38ADA6A72825CF7000D61577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					38ADA6AE2825CF7000D61577 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 38ADA6AA2825CF7000D61577 /* Build configuration list for PBXProject "BitcoinActualPrice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38ADA6A62825CF7000D61577;
+			packageReferences = (
+				38ADA6C92825D0D200D61577 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 38ADA6B02825CF7000D61577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38ADA6AE2825CF7000D61577 /* BitcoinActualPrice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38ADA6AD2825CF7000D61577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38ADA6BA2825CF7100D61577 /* Preview Assets.xcassets in Resources */,
+				38ADA6B72825CF7100D61577 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80972787D7BC3C4DAE696C7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitcoinActualPrice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC3F954768E570A061C27D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitcoinActualPrice/Pods-BitcoinActualPrice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitcoinActualPrice/Pods-BitcoinActualPrice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitcoinActualPrice/Pods-BitcoinActualPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38ADA6AB2825CF7000D61577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38ADA6C82825CFDE00D61577 /* SettingsView.swift in Sources */,
+				38ADA6C62825CFBA00D61577 /* MainModel.swift in Sources */,
+				38ADA6B52825CF7000D61577 /* ChartView.swift in Sources */,
+				38ADA6C42825CFAF00D61577 /* MainController.swift in Sources */,
+				38ADA6B32825CF7000D61577 /* BitcoinActualPriceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38ADA6BB2825CF7100D61577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38ADA6BC2825CF7100D61577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38ADA6BE2825CF7100D61577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7795ED09A6F016EC3F60B065 /* Pods-BitcoinActualPrice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BitcoinActualPrice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PQ52R8GJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dysya.BitcoinActualPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38ADA6BF2825CF7100D61577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0438E18CB37F4DEF6051FF13 /* Pods-BitcoinActualPrice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BitcoinActualPrice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PQ52R8GJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dysya.BitcoinActualPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38ADA6AA2825CF7000D61577 /* Build configuration list for PBXProject "BitcoinActualPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38ADA6BB2825CF7100D61577 /* Debug */,
+				38ADA6BC2825CF7100D61577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38ADA6BD2825CF7100D61577 /* Build configuration list for PBXNativeTarget "BitcoinActualPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38ADA6BE2825CF7100D61577 /* Debug */,
+				38ADA6BF2825CF7100D61577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38ADA6C92825D0D200D61577 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 2.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38ADA6CA2825D0D200D61577 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38ADA6C92825D0D200D61577 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 38ADA6A72825CF7000D61577 /* Project object */;
+}
